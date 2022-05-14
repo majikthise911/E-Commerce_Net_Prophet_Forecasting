@@ -1,12 +1,11 @@
-# Unit 10: Forecasting Net Prophet
+Forecasting Net Prophet
 
 ![Decorative image.](Images/unit-10-readme-photo.png)
 
 ## Background
 
-You’re a growth analyst at [MercadoLibre](http://investor.mercadolibre.com/investor-relations). With over 200 million users, MercadoLibre is the most popular e-commerce site in Latin America. You've been tasked with analyzing the company's financial and user data in clever ways to help the company grow. So, you want to find out if the ability to predict search traffic can translate into the ability to successfully trade the stock.
 
-In a bid to drive revenue, you’ll produce a Jupyter notebook that contains your data preparation, your analysis, and your visualizations for all the time series data that the company needs to understand. You’ll use text and comments to document your findings. And, you’ll answer the question prompts in the instructions. Specifically, this notebook should contain the following:
+[MercadoLibre](http://investor.mercadolibre.com/investor-relations). With over 200 million users, MercadoLibre is the most popular e-commerce site in Latin America. This repo seeks to analyzing the company's financial and user data in clever ways to help the company grow. The goal is to find out if the ability to predict search traffic can translate into the ability to successfully trade the stock.
 
 - Visual depictions of seasonality (as measured by Google Search traffic) that are of interest to the company.
 
@@ -18,9 +17,7 @@ In a bid to drive revenue, you’ll produce a Jupyter notebook that contains you
 
 - (Optional) A plot of a forecast for the company’s future revenue.
 
-When you finish, you’ll push your final notebook to your GitHub repository so that others can review your work.
-
-You’ll gain proficiency in the following tasks:
+This task was an exercise to increase proficiency in the following tasks:
 
 - Identifying patterns in time series data.
 
@@ -29,14 +26,6 @@ You’ll gain proficiency in the following tasks:
 - Building sales-forecast and user-interest predictive models.
 
 ---
-
-## Files
-
-Download the following files to help you get started:
-
-[Forecasting Net Prophet notebook](Starter_Code/forecasting_net_prophet.ipynb)
-
-[Data files](Starter_code/Resources)
 
 ---
 
@@ -122,13 +111,9 @@ Now, you need to produce a time series model that analyzes and forecasts pattern
 
    - What's the lowest point for search traffic in the calendar year?
 
-### Step 5 (Optional): Forecast the Revenue by Using Time Series Models
+### Step 5: Forecast the Revenue by Using Time Series Models
 
-A few weeks after your initial analysis, the finance group follows up to find out if you can help them solve a different problem. Your fame as a growth analyst in the company continues to grow!
 
-Specifically, the finance group wants a forecast of the total sales for the next quarter. This will dramatically increase their ability to both plan budgets and help guide expectations for the company investors.
-
-To do so, complete the following steps:
 
 1. Read in the daily historical sales (that is, revenue) figures, and then apply a Prophet model to the data.
 
@@ -138,14 +123,6 @@ To do so, complete the following steps:
 
 ---
 
-## Submission
 
-- Create Jupyter notebooks for the analysis, and host them on GitHub.
 
-- Include a Markdown file that summarizes your models and findings, and include this report in your GitHub repo.
 
-- Submit the link to your GitHub project to Bootcamp Spot.
-
----
-
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
